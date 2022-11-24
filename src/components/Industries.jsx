@@ -10,8 +10,7 @@ export function Industries() {
                     <Button ter href="/">Wszystkie branże</Button>
                 </div>
                 <div className="grid grid-cols-4 gap-6
-                {/*below commented needed content - it's Tailwind's hack*/}
-                {/*after:bg-icon-battery after:bg-icon-gasoline after:bg-icon-industry after:bg-icon-leaves after:bg-icon-planet after:bg-icon-tap after:bg-icon-trash after:bg-icon-wind-energy*/}
+                {/* after:bg-icon-wind after:bg-icon-gasoline after:bg-icon-battery after:bg-icon-industry after:bg-icon-leaves after:bg-icon-planet after:bg-icon-tap after:bg-icon-trash after:bg-icon-trash*/}
                 ">
                     {industries.map((item, index) => {
                         return (

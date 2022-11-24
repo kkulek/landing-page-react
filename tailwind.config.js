@@ -39,13 +39,16 @@ module.exports = {
                 "benefits": "url('./images/benefits-img.png')",
                 "mockup-slider": "url('./images/mockup-slider.png')",
                 "icon-planet": "url('./images/icons/icon-planet.png')",
-                "icon-wind-energy": "url('./images/icons/icon-wind-energy.png')",
+                "icon-wind": "url('./images/icons/icon-wind.png')",
                 "icon-gasoline": "url('./images/icons/icon-gasoline.png')",
                 "icon-industry": "url('./images/icons/icon-industry.png')",
                 "icon-tap": "url('./images/icons/icon-tap.png')",
                 "icon-trash": "url('./images/icons/icon-trash.png')",
                 "icon-battery": "url('./images/icons/icon-battery.png')",
                 "icon-leaves": "url('./images/icons/icon-leaves.png')"
+            },
+            lineHeight: {
+                'hero': '1.15'
             }
         },
     },

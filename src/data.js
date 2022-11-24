@@ -5,7 +5,7 @@ export const industries = [
     },
     {
         name: "Pompy ciepła",
-        icon: "wind-energy"
+        icon: "wind"
     },
     {
         name: "Paliwowa",
