@@ -6,7 +6,7 @@ export function Button({prm, sec, ter, href, target, children}) {
             {prm &&
                 <a href={href}
                    target={target}
-                   className="bg-blue-500 px-8 py-4 rounded bg-btn-primary text-white font-medium"
+                   className="px-8 py-4 rounded bg-btn-primary text-white font-medium"
                 >
                     {children}
                 </a>
@@ -15,7 +15,7 @@ export function Button({prm, sec, ter, href, target, children}) {
             {sec &&
                 <a href={href}
                    target={target}
-                   className="bg-blue-500 px-8 py-4 rounded bg-btn-secondary font-medium"
+                   className="px-8 py-4 rounded bg-btn-secondary font-medium"
                 >
                     {children}
                 </a>
