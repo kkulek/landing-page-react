@@ -1,6 +1,7 @@
 import {Navigation} from "./components/Navigation";
 import {Hero} from "./components/Hero";
 import {Benefits} from "./components/Benefits";
+import {Calculator} from "./components/Calculator";
 
 function App() {
     return (
@@ -8,7 +9,8 @@ function App() {
             <Navigation/>
             <main>
                 <Hero/>
-                <Benefits />
+                <Benefits/>
+                <Calculator/>
             </main>
         </div>
     );
