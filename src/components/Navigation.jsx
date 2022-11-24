@@ -1,3 +1,5 @@
+import {Button} from "./Button";
+
 export function Navigation() {
     return (
         <div className="w-screen flex justify-center py-16">
@@ -16,8 +18,8 @@ export function Navigation() {
                         </ul>
                     </nav>
                     <div className="flex items-center gap-5">
-                        <a href="/" className="bg-blue-500 px-8 py-4 rounded bg-btn-secondary font-medium">Logowanie</a>
-                        <a href="/" className="bg-blue-500 px-8 py-4 rounded bg-btn-primary text-white font-medium">Przetestuj za darmo</a>
+                        <Button sec target="_blank" href="/">Logowanie</Button>
+                        <Button prm target="_blank" href="/">Przetestuj za darmo</Button>
                     </div>
                 </div>
             </header>
