@@ -7,9 +7,9 @@ export function Navigation() {
                 <a href="/">
                     <img src="../images/logo.png" alt="Logo"/>
                 </a>
-                <div className="flex justify-between gap-16 items-center text-sm">
+                <div className="flex justify-between gap-20 items-center text-sm">
                     <nav>
-                        <ul className="flex gap-14">
+                        <ul className="flex gap-12">
                             <li><a href="/">Jak to działa</a></li>
                             <li><a href="/">O nas</a></li>
                             <li><a href="/">Cennik</a></li>
