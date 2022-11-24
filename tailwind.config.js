@@ -24,6 +24,9 @@ module.exports = {
                 gradient: {
                     "from": "#00DD78",
                     "to": "#00CC74"
+                },
+                border: {
+                    "light": "#F0F0F0"
                 }
             },
             content: {
