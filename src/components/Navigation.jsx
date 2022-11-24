@@ -2,7 +2,7 @@ import {Button} from "./Button";
 
 export function Navigation() {
     return (
-        <div className="w-screen flex justify-center py-16">
+        <div className="w-screen flex justify-center py-12 px-10">
             <header className="w-full container flex gap-10 justify-between items-center">
                 <a href="/">
                     <img src="../images/logo.png" alt="Logo"/>
