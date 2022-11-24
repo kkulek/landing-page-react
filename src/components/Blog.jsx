@@ -2,7 +2,7 @@ import {Button} from "./Button";
 
 export function Blog() {
     return (
-        <section className="pt-40 mt-20 px-10 mb-52">
+        <section className="pt-40 mt-20 px-10 mb-36">
             <div className="container mx-auto space-y-20">
                 <div className="flex items-center justify-between">
                     <h2 className="text-6xl font-medium">Nasz blog</h2>
@@ -10,7 +10,7 @@ export function Blog() {
                 </div>
                 <div className="flex gap-5">
                     <article>
-                        <figure className="z-10 max-h-[300px] max-w-[738px] relative after:absolute after:content-['20.08.2022_r.'] after:top-10 after:left-10 after:text-sm after:font-light after:text-white">
+                        <figure className="z-10 max-h-[300px] w-[738px] relative after:absolute after:content-['20.08.2022_r.'] after:top-10 after:left-10 after:text-sm after:font-light after:text-white">
                             <img
                                 src="../images/blogpost-forest.png"
                                 alt="Forest"
@@ -24,7 +24,7 @@ export function Blog() {
                         </div>
                     </article>
                     <article>
-                        <figure className="z-10 max-h-[300px] max-w-[522px] relative after:absolute after:content-['17.08.2022_r.'] after:top-10 after:left-10 after:text-sm after:font-light after:text-white">
+                        <figure className="z-10 max-h-[300px] w-[522px] relative after:absolute after:content-['17.08.2022_r.'] after:top-10 after:left-10 after:text-sm after:font-light after:text-white">
                             <img
                                 src="../images/blogpost-leaves.png"
                                 alt="Leaves"
