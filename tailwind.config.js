@@ -46,6 +46,9 @@ module.exports = {
                 "icon-trash": "url('./images/icons/icon-trash.png')",
                 "icon-battery": "url('./images/icons/icon-battery.png')",
                 "icon-leaves": "url('./images/icons/icon-leaves.png')"
+            },
+            lineHeight: {
+                'hero': '1.15'
             }
         },
     },
