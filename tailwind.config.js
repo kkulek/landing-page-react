@@ -20,6 +20,10 @@ module.exports = {
                 text: {
                     "body": "#1F1F1F",
                     "btn-light": "#1B352B",
+                },
+                gradient: {
+                    "from": "#00DD78",
+                    "to": "#00CC74"
                 }
             },
             content: {
