@@ -11,7 +11,7 @@ export function Industries() {
                 </div>
                 <div className="grid grid-cols-4 gap-6
                 {/*below commented needed content - it's Tailwind's hack*/}
-                {/*after:bg-icon-battery after:bg-icon-gasoline after:bg-icon-industry after:bg-icon-leaves after:bg-icon-planet after:bg-icon-tap after:bg-icon-trash after:bg-icon-wind-energy*/}
+                {/*after:bg-icon-battery after:bg-icon-gasoline after:bg-icon-industry after:bg-icon-leaves after:bg-icon-planet after:bg-icon-tap after:bg-icon-trash after:bg-icon-wind*/}
                 ">
                     {industries.map((item, index) => {
                         return (

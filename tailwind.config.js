@@ -39,7 +39,7 @@ module.exports = {
                 "benefits": "url('./images/benefits-img.png')",
                 "mockup-slider": "url('./images/mockup-slider.png')",
                 "icon-planet": "url('./images/icons/icon-planet.png')",
-                "icon-wind-energy": "url('./images/icons/icon-wind-energy.png')",
+                "icon-wind": "url('./images/icons/icon-wind-energy.png')",
                 "icon-gasoline": "url('./images/icons/icon-gasoline.png')",
                 "icon-industry": "url('./images/icons/icon-industry.png')",
                 "icon-tap": "url('./images/icons/icon-tap.png')",
