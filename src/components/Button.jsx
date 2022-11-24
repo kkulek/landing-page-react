@@ -15,7 +15,7 @@ export function Button({prm, sec, ter, href, target, children}) {
             {sec &&
                 <a href={href}
                    target={target}
-                   className="inline-block px-8 py-4 rounded bg-btn-secondary font-medium"
+                   className="inline-block px-8 py-4 rounded bg-btn-secondary text-text-btn-light font-medium"
                 >
                     {children}
                 </a>
