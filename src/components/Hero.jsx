@@ -7,7 +7,7 @@ export function Hero() {
                 <section className="grid grid-cols-2 gap-10">
                     <div className="flex flex-col gap-4 justify-center">
                         <p className="text-lg font-medium">Skorzystaj z naszego kalkulatora</p>
-                        <h1 className="text-6xl font-medium mb-10">
+                        <h1 className="text-6xl font-medium mb-8 leading-hero">
                             Oblicz jaki <span
                             className="relative z-10 after:absolute after:-z-10 after:bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-[115%] after:h-3 after:bg-underline-hero">ślad</span>
                             <span
