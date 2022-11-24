@@ -1,8 +1,9 @@
 import {Button} from "./Button";
+import {Slider} from "./Slider";
 
 export function Calculator() {
     return (
-        <section className="px-10">
+        <section className="px-10 relative">
             <div className="relative container bg-gradient-to-br from-gradient-from to-gradient-to mx-auto -translate-y-1/2 flex items-center gap-20 py-20 px-28 divide-x-[1px] divide-black rounded">
                 <div className="w-1/3 shrink-0 space-y-4 font-medium">
                     <p className="text-lg ">Sprawdź jak</p>
@@ -13,6 +14,7 @@ export function Calculator() {
                     <Button prm href="/">Przetestuj za darmo</Button>
                 </div>
             </div>
+            <Slider/>
         </section>
     )
 }
