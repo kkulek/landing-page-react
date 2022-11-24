@@ -18,6 +18,10 @@ module.exports = {
                     "body": "#1F1F1F",
                     "btn-light": "#1B352B",
                 }
+            },
+            content: {
+                "check": "url('./images/icons/icon-check.png')",
+                "hero-pattern": "url('./images/hero-pattern.png')"
             }
         },
     },
