@@ -8,7 +8,7 @@ module.exports = {
             colors: {
                 underline: {
                     "cta": "#4BE566",
-                    "gero": "#00D17C"
+                    "hero": "#00D17C"
                 },
                 btn: {
                     "primary": "#E04E4E",
