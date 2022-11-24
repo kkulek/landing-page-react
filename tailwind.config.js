@@ -5,6 +5,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                stolzl: ['stolzl', 'sans-serif']
+            },
             colors: {
                 underline: {
                     "cta": "#4BE566",

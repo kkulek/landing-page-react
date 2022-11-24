@@ -1,10 +1,36 @@
+@import url("https://p.typekit.net/p.css?s=1&k=vdh4jfr&ht=tk&f=32203.32204.32205.32206&a=101665335&app=typekit&e=css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family:"stolzl";
+    src:url("https://use.typekit.net/af/f8d76d/00000000000000007735affb/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/f8d76d/00000000000000007735affb/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/f8d76d/00000000000000007735affb/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n2&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+    font-family:"stolzl";
+    src:url("https://use.typekit.net/af/5265b3/00000000000000007735affc/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/5265b3/00000000000000007735affc/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/5265b3/00000000000000007735affc/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+    font-family:"stolzl";
+    src:url("https://use.typekit.net/af/148b9c/00000000000000007735affe/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/148b9c/00000000000000007735affe/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/148b9c/00000000000000007735affe/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+    font-family:"stolzl";
+    src:url("https://use.typekit.net/af/505ea4/00000000000000007735b006/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/505ea4/00000000000000007735b006/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/505ea4/00000000000000007735b006/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
 @layer base {
     body {
-        @apply text-text-body
+        @apply text-text-body font-stolzl
     }
 }
 
