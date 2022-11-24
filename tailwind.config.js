@@ -24,7 +24,11 @@ module.exports = {
             },
             content: {
                 "check": "url('./images/icons/icon-check.png')",
-                "hero-pattern": "url('./images/hero-pattern.png')"
+                "hero-pattern": "url('./images/hero-pattern.png')",
+                "benefits-pattern": "url('./images/icons/icon-pattern.png')",
+            },
+            backgroundImage: {
+                "benefits": "url('./images/benefits-img.png')"
             }
         },
     },
