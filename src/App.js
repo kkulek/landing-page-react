@@ -1,7 +1,11 @@
+import {Navigation} from "./components/Navigation";
+
 function App() {
-  return (
-      <div>App</div>
-  );
+    return (
+        <>
+            <Navigation/>
+        </>
+    );
 }
 
 export default App;
