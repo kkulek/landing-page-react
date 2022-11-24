@@ -32,7 +32,8 @@ module.exports = {
                 "benefits-pattern": "url('./images/icons/icon-pattern.png')",
             },
             backgroundImage: {
-                "benefits": "url('./images/benefits-img.png')"
+                "benefits": "url('./images/benefits-img.png')",
+                "mockup-slider": "url('./images/mockup-slider.png')"
             }
         },
     },
